@@ -23,29 +23,29 @@ export default function Contact() {
 
   return (
     <div
-  <img src="/assets/lapin-nature.png" alt="Contact GRN" className="w-1/2 mx-auto my-6" />
+  <img src="/assets/grn-images/lapin-nature.png" alt="Contact GRN" className="w-1/2 mx-auto my-6" />
  className="pt-20 px-6 min-h-screen bg-green-50 bg-[url('/assets/pixel-rabbit.png')] bg-no-repeat bg-center bg-cover">
       <div
-  <img src="/assets/lapin-nature.png" alt="Contact GRN" className="w-1/2 mx-auto my-6" />
+  <img src="/assets/grn-images/lapin-nature.png" alt="Contact GRN" className="w-1/2 mx-auto my-6" />
  className="max-w-lg mx-auto bg-white p-8 rounded-xl shadow-lg">
         <h1 className="text-2xl font-bold text-green-900 mb-6">Nous contacter</h1>
         <form onSubmit={handleSubmit(onSubmit)} className="space-y-4">
           <div
-  <img src="/assets/lapin-nature.png" alt="Contact GRN" className="w-1/2 mx-auto my-6" />
+  <img src="/assets/grn-images/lapin-nature.png" alt="Contact GRN" className="w-1/2 mx-auto my-6" />
 >
             <label className="block mb-1 text-green-800">Nom</label>
             <input {...register("name")} className="w-full border rounded p-2" />
             {errors.name && <p className="text-red-500 text-sm">{errors.name.message}</p>}
           </div>
           <div
-  <img src="/assets/lapin-nature.png" alt="Contact GRN" className="w-1/2 mx-auto my-6" />
+  <img src="/assets/grn-images/lapin-nature.png" alt="Contact GRN" className="w-1/2 mx-auto my-6" />
 >
             <label className="block mb-1 text-green-800">Email</label>
             <input {...register("email")} className="w-full border rounded p-2" />
             {errors.email && <p className="text-red-500 text-sm">{errors.email.message}</p>}
           </div>
           <div
-  <img src="/assets/lapin-nature.png" alt="Contact GRN" className="w-1/2 mx-auto my-6" />
+  <img src="/assets/grn-images/lapin-nature.png" alt="Contact GRN" className="w-1/2 mx-auto my-6" />
 >
             <label className="block mb-1 text-green-800">Message</label>
             <textarea {...register("message")} rows="4" className="w-full border rounded p-2" />

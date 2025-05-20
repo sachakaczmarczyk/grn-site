@@ -2,10 +2,10 @@
 export default function About() {
   return (
     <div
-  <img src="/assets/nature.png" alt="Nature GRN" className="w-full h-auto mb-6" />
+  <img src="/assets/grn-images/nature.png" alt="Nature GRN" className="w-full h-auto mb-6" />
  className="pt-20 px-6 max-w-4xl mx-auto">
       <img
-        src="/assets/about-banner.jpg"
+        src="/assets/grn-images/about-banner.jpg"
         alt="Notre histoire"
         className="w-full h-64 object-cover rounded-xl mb-8"
       />

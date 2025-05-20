@@ -27,11 +27,11 @@ export default function Shop() {
     <div
   
 <div className="grid grid-cols-2 gap-4">
-  <img src="/assets/boutique.png" alt="Boutique GRN" />
-  <img src="/assets/short-noir.png" alt="Short recyclé" />
-  <img src="/assets/chaussures.png" alt="Chaussures écologiques" />
-  <img src="/assets/casquette.png" alt="Casquette recyclée" />
-  <img src="/assets/etiquette.png" alt="Étiquette GRN" />
+  <img src="/assets/grn-images/boutique.png" alt="Boutique GRN" />
+  <img src="/assets/grn-images/short-noir.png" alt="Short recyclé" />
+  <img src="/assets/grn-images/chaussures.png" alt="Chaussures écologiques" />
+  <img src="/assets/grn-images/casquette.png" alt="Casquette recyclée" />
+  <img src="/assets/grn-images/etiquette.png" alt="Étiquette GRN" />
 </div>
 
  className="pt-20 px-6 max-w-6xl mx-auto">
@@ -39,11 +39,11 @@ export default function Shop() {
       <div
   
 <div className="grid grid-cols-2 gap-4">
-  <img src="/assets/boutique.png" alt="Boutique GRN" />
-  <img src="/assets/short-noir.png" alt="Short recyclé" />
-  <img src="/assets/chaussures.png" alt="Chaussures écologiques" />
-  <img src="/assets/casquette.png" alt="Casquette recyclée" />
-  <img src="/assets/etiquette.png" alt="Étiquette GRN" />
+  <img src="/assets/grn-images/boutique.png" alt="Boutique GRN" />
+  <img src="/assets/grn-images/short-noir.png" alt="Short recyclé" />
+  <img src="/assets/grn-images/chaussures.png" alt="Chaussures écologiques" />
+  <img src="/assets/grn-images/casquette.png" alt="Casquette recyclée" />
+  <img src="/assets/grn-images/etiquette.png" alt="Étiquette GRN" />
 </div>
 
  className="grid gap-8 sm:grid-cols-2 md:grid-cols-3">

@@ -21,4 +21,4 @@ export default function HeroSection() {
   );
 }
 
-<img src="/assets/banniere-accueil.png" alt="Bannière GRN" className="w-full h-auto mb-8" />
+<img src="/assets/grn-images/banniere-accueil.png" alt="Bannière GRN" className="w-full h-auto mb-8" />
