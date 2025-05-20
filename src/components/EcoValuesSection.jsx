@@ -1,10 +1,10 @@
 
 import { motion } from "framer-motion";
-import { Leaf, Handshake, Heart } from "lucide-react";
+import { Leaf, Heart, Hand } from "lucide-react";
 
 const values = [
   { icon: <Leaf className="w-10 h-10 text-green-700" />, title: "Matériaux recyclés" },
-  { icon: <Handshake className="w-10 h-10 text-green-700" />, title: "Production éthique" },
+  { icon: <Hand className="w-10 h-10 text-green-700" />, title: "Production éthique" },
   { icon: <Heart className="w-10 h-10 text-green-700" />, title: "Respect du corps & de la planète" },
 ];
 
