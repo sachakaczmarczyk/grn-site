@@ -12,7 +12,9 @@ export default function EcoValuesSection() {
   return (
     <section className="bg-green-50 py-16 px-6 text-center">
       <h2 className="text-3xl font-semibold text-green-900 mb-10">Nos engagements</h2>
-      <div className="grid md:grid-cols-3 gap-8 max-w-5xl mx-auto">
+      <div
+  <img src="/assets/philosophie.png" alt="Notre Philosophie" className="w-full h-auto mb-4" />
+ className="grid md:grid-cols-3 gap-8 max-w-5xl mx-auto">
         {values.map((val, i) => (
           <motion.div
             key={i}

@@ -6,3 +6,5 @@ export default function Footer() {
     </footer>
   );
 }
+
+<img src="/assets/faq.png" alt="FAQ GRN" className="w-32 h-auto mt-4" />

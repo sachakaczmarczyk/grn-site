@@ -24,9 +24,29 @@ const products = [
 
 export default function Shop() {
   return (
-    <div className="pt-20 px-6 max-w-6xl mx-auto">
+    <div
+  
+<div className="grid grid-cols-2 gap-4">
+  <img src="/assets/boutique.png" alt="Boutique GRN" />
+  <img src="/assets/short-noir.png" alt="Short recyclé" />
+  <img src="/assets/chaussures.png" alt="Chaussures écologiques" />
+  <img src="/assets/casquette.png" alt="Casquette recyclée" />
+  <img src="/assets/etiquette.png" alt="Étiquette GRN" />
+</div>
+
+ className="pt-20 px-6 max-w-6xl mx-auto">
       <h1 className="text-3xl font-bold text-green-900 mb-10 text-center">Notre collection</h1>
-      <div className="grid gap-8 sm:grid-cols-2 md:grid-cols-3">
+      <div
+  
+<div className="grid grid-cols-2 gap-4">
+  <img src="/assets/boutique.png" alt="Boutique GRN" />
+  <img src="/assets/short-noir.png" alt="Short recyclé" />
+  <img src="/assets/chaussures.png" alt="Chaussures écologiques" />
+  <img src="/assets/casquette.png" alt="Casquette recyclée" />
+  <img src="/assets/etiquette.png" alt="Étiquette GRN" />
+</div>
+
+ className="grid gap-8 sm:grid-cols-2 md:grid-cols-3">
         {products.map((product) => (
           <ProductCard key={product.id} {...product} />
         ))}

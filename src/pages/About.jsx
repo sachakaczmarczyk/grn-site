@@ -1,7 +1,9 @@
 
 export default function About() {
   return (
-    <div className="pt-20 px-6 max-w-4xl mx-auto">
+    <div
+  <img src="/assets/nature.png" alt="Nature GRN" className="w-full h-auto mb-6" />
+ className="pt-20 px-6 max-w-4xl mx-auto">
       <img
         src="/assets/about-banner.jpg"
         alt="Notre histoire"
