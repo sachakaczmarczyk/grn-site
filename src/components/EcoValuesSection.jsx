@@ -1,6 +1,6 @@
 
 import { motion } from "framer-motion";
-import { Leaf, Handshake, Heart } from "lucide-react";
+import { Leaf, Handshake, Heart } from "lucide-react/dist/esm/icons";
 
 const values = [
   { icon: <Leaf className="w-10 h-10 text-green-700" />, title: "Matériaux recyclés" },
